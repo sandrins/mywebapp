@@ -1,3 +1,5 @@
 import streamlit as st
 
-st.title("Meine erste Streamlit-App")
+st.title("Web App für Technik")
+
+st.sidebar.title("Navigation")
