@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Web App für Technik")
 
-start_page = st.Page("home.py", title="Home", icon=":material/home:", default=True)
+start_page = st.Page("pages/home.py", title="Home", icon=":material/home:", default=True)
 
 pg = st.navigation(
         {
