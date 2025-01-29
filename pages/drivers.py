@@ -15,7 +15,7 @@ Medaillen neben den Fahrernamen, zeigen die Platzierung in der Fahrer-Weltmeiste
 die Medaillen (🥈🥉) für den zweiten und dritten Platz in der jeweiligen Wertung.
 '''
 
-df = pd.read_csv("Projekt\P_data\Driver_Data.csv", sep=",")
+df = pd.read_csv("Data\Driver_Data.csv", sep=",")
 
 def dropDown(n):
     driver_data = df[n]
