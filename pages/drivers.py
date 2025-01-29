@@ -15,7 +15,7 @@ Die Pokale und die Medaillen neben den Teamnamen, zeigen die Platzierung in der 
 Medaillen neben den Fahrernamen, zeigen die Platzierung in der Fahrer-Weltmeisterschaft 2024 an. Der Pokal (🏆) steht für den ersten Platz, 
 die Medaillen (🥈🥉) für den zweiten und dritten Platz in der jeweiligen Wertung.
 '''
-file_path = os.path.join(os.path.dirname(__file__), "Data", "Driver_Data.csv")
+file_path = os.path.join(os.getcwd(), "Data", "Driver_Data.csv")
 df = pd.read_csv(file_path, sep=",") #"Data/Driver_Data.csv"
 
 def dropDown(n):
